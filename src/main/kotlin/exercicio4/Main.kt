@@ -11,5 +11,4 @@ fun main(){
 fun calcularArea(base: Double, altura: Double){
     val calculoDaArea = base * altura
     println("A área desse retângulo é: $calculoDaArea")
-
 }

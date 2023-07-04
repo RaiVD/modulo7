@@ -8,7 +8,10 @@ fun main(){
     println("Quantas vendas em reais foram efetuadas pelo vendedor $nome: ")
     val totalDeVendas = readln().toDouble()
 
+    val salarioFinal = Vendedor(salario,totalDeVendas).calcularComessao()
+    val formatoSalario = "%.2f".format(salarioFinal)
+
 
     println("==========Iformaçoes Gerais Do Vendedor $nome==========")
-    println(" Nome: $nome \n Salario fixo: $salario \n Salario final com comissão: ${Vendedor(salario, totalDeVendas).calcularComessao()} ")
+    println(" Nome: $nome \n Salario fixo: $salario \n Salario final com comissão: $formatoSalario ")
 }
