@@ -8,8 +8,7 @@ fun main(){
 
         when(temperaturaC != null){
             true-> {
-                val fahrenheit = (9 * temperaturaC + 160) / 5
-                println("Temperatura atual em Fahrenheit: $fahrenheit")
+                println("Temperatura atual em Fahrenheit: ${convertertemperatura(temperaturaC)}")
                 entrada = true
             }
             false -> {
@@ -17,4 +16,8 @@ fun main(){
             }
         }
     }
+}
+fun convertertemperatura(temperaturaC: Double): Double{
+    val fahrenheit = (9 * temperaturaC + 160) / 5
+    return fahrenheit
 }
