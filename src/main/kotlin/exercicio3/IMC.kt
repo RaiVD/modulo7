@@ -5,7 +5,6 @@ class IMC{
         val imc = peso / (altura * altura)
         return imc
     }
-
     fun classificarImc(imc: Double): String {
         return when {
             imc < 18.5 -> "Abaixo do peso"

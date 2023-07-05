@@ -6,5 +6,5 @@ fun main(){
     println("Quantos porcento de acréscimo você gostaria de aplicar no produto: ")
     val porcentagemAcrescimo = readln().toDouble()
 
-    println("O valor de venda do produto é: R$ ${Acrescimo(valorDeCusto,porcentagemAcrescimo).calcularValor()}")
+    Acrescimo(valorDeCusto,porcentagemAcrescimo).calcularValor()
 }

@@ -1,7 +1,5 @@
 package exercicio2
 
-import exercicio1.somatoriaDosNumeros
-
 fun main (){
     var entrada = false
     while (!entrada) {

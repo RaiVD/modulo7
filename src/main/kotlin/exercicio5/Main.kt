@@ -13,9 +13,8 @@ fun main(){
         println("1. Somar\t     2.Subtrair")
         println("3. Multiplicar\t 4. Dividir")
         println("5. Encerrar")
-        val opcao = readln().toInt()
 
-        when (opcao) {
+        when (readln().toInt()) {
             1 -> Calculadora(primeiroNumero, segundoNumero).somar()
             2 -> Calculadora(primeiroNumero, segundoNumero).subtrair()
             3 -> Calculadora(primeiroNumero, segundoNumero).mutiplicar()
