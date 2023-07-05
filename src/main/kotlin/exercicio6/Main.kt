@@ -1,12 +1,15 @@
 package exercicio6
 
 fun main() {
+    println("\n****** Tabuada ******\n")
     for (i in 1..9) {
-        println("Tabuada do $i:")
-        for (j in 1..10) {
-            val resultado = i * j
-            println("$i x $j = $resultado")
+        println("======================")
+        println("\tTabuada do $i:")
+
+        for (x in 1..10) {
+            val resultado = i * x
+            println("\t $i x $x = $resultado")
         }
-        println()
+
     }
 }
