@@ -6,6 +6,7 @@ class Funcionario(){
         val funcionariosSemFerias = IntArray(quantidade)
 
         for (i in 0 until quantidade) {
+            println()
             println("Qual o nome do(a) funcionario(a) ${i + 1}: ")
             val nome = readln()
             println("Qual o tempo de serviço do(a) funcionario(a) $nome (em meses): ")
